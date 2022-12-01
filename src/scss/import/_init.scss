@@ -1,0 +1,22 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'IBM Plex Mono', 'Oufit', sans-serif;
+   font-size: 18px; /* 18px */
+}
+
+.container {
+   width: 90%;
+   max-width: 90%;
+   margin: 0 auto;
+}
+
+button, input {
+   border: none;
+   outline: none;
+   font-family: 'IBM Plex Mono', 'Outfit', sans-serif;
+}
