@@ -1,0 +1,34 @@
+.navbar {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   h1 {
+      margin: 0;
+      font-size: 35px; /* 35px */
+      font-weight: 600;
+   }
+   .btn-switcher-theme {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.625rem 1.25rem; /* 10px 20px */
+      font-size: 0.875rem; /* 14px */
+      text-transform: uppercase;
+      border-radius: 3px;
+      color: $txt-light;
+      background-color: transparent;
+      transition: all .3s ease;
+      cursor: pointer;
+      .btn-icon {
+         display: block;
+         margin-left: 1.25rem; /* 20px */
+         font-size: 18px;
+         pointer-events: none;
+      }
+      &:hover {
+         background: #352168;
+         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+      }
+   }
+}

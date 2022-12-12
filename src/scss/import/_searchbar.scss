@@ -1,0 +1,41 @@
+.form {
+   width: 100%;
+   margin-top: 1.25rem; /* 20px */
+   border-radius: 10px;
+   background: #352168;
+   .input-field {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      input {
+         width: 100%;
+         padding: 1.25rem 3.75rem; /* 10px 60px */
+         font-size: 1rem; /* 16px */
+         border-radius: 10px;
+         color: $txt-light;
+         background: transparent;
+      }
+      .input-icon {
+         position: absolute;
+         left: 1.5%;
+         font-size: 25px;
+         color: $txt-light;
+         z-index: 10;
+      }
+      .btn-submit {
+         position: absolute;
+         right: 1.5%;
+         padding: 0.625rem 1.25rem; /* 10px 20px */
+         font-size: 0.875rem; /* 14px */
+         border-radius: 5px;
+         color: $txt-dark;
+         background: $txt-light;
+         transition: all .3s ease;
+         cursor: pointer;
+         &:hover {
+            transform: translateY(-10%);
+         }
+      }
+   }
+}
