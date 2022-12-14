@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 /* components */
-import { Navbar, SearchBar } from './';
+import { Navbar, SearchBar, AccountInfo } from './';
 
 export const AccountSearcher = () => {
    /* states */
@@ -13,6 +13,7 @@ export const AccountSearcher = () => {
             setIsDarkTheme={ setIsDarkTheme }
          />
          <SearchBar />
+         <AccountInfo />
       </section>
    );
 };
